@@ -31,3 +31,31 @@ function isYearInLeapYear(year) {
 var year = [2023, 2024, 2025, 2028, 2030];
 var newArray = isYearInLeapYear(year);
 // console.log(newArray);
+
+
+/*-------------------- 
+practice problem  3
+--------*/
+
+function findOddSum(array) {
+    let sum = 0;
+
+    for (let i = 0; i < array.length; i++) {
+        let arrayElement = array[i];
+        if (arrayElement % 2 != 0) {
+            sum += arrayElement;
+        }
+
+    }
+    return sum
+}
+
+let array = [5, 7, 8, 10, 45, 30];
+let sumOddNumber = findOddSum(array);
+// console.log(sumOddNumber);
+
+
+/*-------------------- 
+practice problem  4
+--------*/
+
