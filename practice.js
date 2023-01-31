@@ -59,3 +59,13 @@ let sumOddNumber = findOddSum(array);
 practice problem  4
 --------*/
 
+function leapYear(year) {
+    if (year % 2 === 0) {
+        return true
+    }
+    return false
+}
+
+let year_1 = 2023;
+let output = leapYear(year_1);
+console.log(output)
