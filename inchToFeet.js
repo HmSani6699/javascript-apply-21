@@ -14,4 +14,4 @@ function inchToCentimeter(inch) {
 
 var naniInch = 5;
 var naniCentimeter = inchToCentimeter(naniInch);
-console.log(naniCentimeter);
+// console.log(naniCentimeter);
