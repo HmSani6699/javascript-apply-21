@@ -31,5 +31,18 @@ function sumOddNumber(num) {
 
 const arry = [10, 33, 40, 20, 39, 48, 57];
 const sumOutput = sumOddNumber(arry);
-console.log(sumOutput)
+// console.log(sumOutput)
+
+
+function sumArrayNumber(array) {
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+        let element = array[i];
+        sum += i;
+        console.log(i, element, sum)
+    }
+}
+
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+sumArrayNumber(array)
 
