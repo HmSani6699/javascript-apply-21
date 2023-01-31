@@ -68,4 +68,19 @@ function leapYear(year) {
 
 let year_1 = 2023;
 let output = leapYear(year_1);
-console.log(output)
+// console.log(output)
+
+
+/*-------------------- 
+practice problem  5
+--------*/
+
+function myAge(year) {
+    if (year % 2 == 0) {
+        return true
+    }
+    return false
+}
+let years = 19;
+let myYear = myAge(years);
+// console.log(myYear);
