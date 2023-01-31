@@ -45,8 +45,8 @@ function factorial_1(num) {
     return factorial
 }
 
-var result = factorial_1(7);
-console.log(result)
+// var result = factorial_1(7);
+// console.log(result)
 
 
 
@@ -58,13 +58,7 @@ function factorial(num) {
     }
 }
 
-factorial(7)
-
-
-
-
-
-
+// factorial(7)
 
 
 
